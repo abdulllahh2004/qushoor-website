@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Register | Qushoor</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <header class="header">
+
+    <div class="container nav">
+
+      <a class="brand" href="index.html">
+
+        <img src="assets/logo.png" alt="Qushoor">
+
+      </a>
+
+      <button class="menu-btn" id="menuBtn">
+
+        ☰
+
+      </button>
+
+      <nav class="links" id="navLinks">
+
+        <a data-page="index.html" href="index.html">
+          Home
+        </a>
+
+        <a data-page="products.html" href="products.html">
+          Products
+        </a>
+
+        <a data-page="about.html" href="about.html">
+          About
+        </a>
+
+        <a data-page="cart.html" href="cart.html" class="cart-link">
+          Cart (<span id="cartCount">0</span>)
+        </a>
+
+        <span class="user-chip" id="userChip">
+          Guest
+        </span>
+
+        <a id="authLink" href="login.html">
+          Login
+        </a>
+
+      </nav>
+
+    </div>
+
+  </header>
+
+
+
+  <main class="auth-page">
+
+    <div class="container">
+
+      <div class="auth-box">
+
+        <span class="mini">
+
+          CREATE ACCOUNT
+
+        </span>
+
+        <h1>
+
+          Register
+
+        </h1>
+
+        <p>
+
+          Create your Qushoor account to start ordering.
+
+        </p>
+
+        <div id="formAlert" class="alert"></div>
+
+
+        <form class="form" id="registerForm">
+
+          <div class="field">
+
+            <label>Full Name</label>
+
+            <input id="regName" type="text" required placeholder="Your full name">
+
+          </div>
+
+
+          <div class="field">
+
+            <label>Email Address</label>
+
+            <input id="regEmail" type="email" required placeholder="you@example.com">
+
+          </div>
+
+
+          <div class="field">
+
+            <label>Password</label>
+
+            <input id="regPass" type="password" minlength="4" required placeholder="Minimum 4 characters">
+
+          </div>
+
+
+          <button class="btn block" type="submit">
+
+            Create Account
+
+          </button>
+
+        </form>
+
+
+        <div class="switch-text">
+
+          Already have an account?
+
+          <a href="login.html">
+
+            Login
+
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </main>
+
+
+
+  <footer class="footer">
+    <div class="container footer-content">
+
+      <div class="footer-brand">
+        <img src="assets/logo.png" alt="Qushoor Logo" />
+
+        <p>
+          Transforming citrus peel waste into smart, sustainable products for
+          health, agriculture, and food innovation.
+        </p>
+
+        <div class="socials">
+          <a href="#">Instagram</a>
+          <a href="#">Facebook</a>
+          <a href="#">LinkedIn</a>
+        </div>
+      </div>
+
+      <div class="footer-links">
+        <h3>Explore</h3>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About</a>
+        <a href="cart.html">Cart</a>
+      </div>
+
+      <div class="footer-links">
+        <h3>Products</h3>
+        <a href="products.html">Q-Grow</a>
+        <a href="products.html">Diabetic Patches</a>
+        <a href="products.html">General Patches</a>
+        <a href="products.html">Edible Spray</a>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 Qushoor — Peel • Layer • Create</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
