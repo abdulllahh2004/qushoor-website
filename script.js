@@ -3,7 +3,7 @@ const PRODUCTS = [
     id: "q-grow",
     name: "Q-Grow",
     line: "Soil Conditioner",
-    price: 82,
+    price: 79,
     img: "assets/q-grow.png",
     tag: "Q-Grow",
     desc: "An eco-friendly, pectin-powered soil conditioner that utilizes slow-release technology to maximize moisture retention and naturally nourish your plants."
@@ -12,7 +12,7 @@ const PRODUCTS = [
     id: "diabetic-patches",
     name: "Q-Health: Diabetic Wounds Patches",
     line: "Protective Healing Patches",
-    price: 65,
+    price: 50,
     img: "assets/diabetic-patches.png",
     tag: "Q-Health",
     desc: "Advanced, biocompatible hydrogel patches engineered from orange peel extracts to provide gentle, protective healing for high-risk superficial foot wounds."
@@ -21,7 +21,7 @@ const PRODUCTS = [
     id: "general-patches",
     name: "Q-Health: General Wounds Patches",
     line: "Everyday First Aid",
-    price: 65,
+    price: 50,
     img: "assets/general-patches.png",
     tag: "Q-Health",
     desc: "Your everyday, plant-derived first aid solution that comfortably seals out germs and supports the skin’s natural recovery from minor scrapes."
@@ -30,7 +30,7 @@ const PRODUCTS = [
     id: "edible-spray",
     name: "Q-Guard: Edible Coating Spray",
     line: "Freshness Protection",
-    price: 120,
+    price: 83,
     img: "assets/edible-spray.png",
     tag: "Q-Guard",
     desc: "An invisible, 100% food-safe pectin spray that locks in freshness and extends the shelf life of produce to drastically reduce food waste."
